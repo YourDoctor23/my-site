@@ -239,6 +239,14 @@
   background-image: url("img/icon-css.svg");
 }
 
+.dark-theme .skill-javascript {
+  background-image: url("img/icon-js.svg");
+}
+
+.dark-theme .skill-php {
+  background-image: url("img/icon-php.svg");
+}
+
 .dark-theme .level {
   margin: 0 0 40px;
   height: 24px;
@@ -449,7 +457,11 @@
 }
 
 .light-theme .skills-list dt {
-  padding-left: 32px;
+  margin: 0 0 8px;
+  padding-left: 46px;
+  height: 36px;
+  font-size: 24px;
+  letter-spacing: 1px;
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -460,6 +472,14 @@
 
 .light-theme .skill-css {
   background-image: url("img-l/icon-css.svg");
+}
+
+.light-theme .skill-javascript {
+  background-image: url("img-l/icon-js.svg");
+}
+
+.light-theme .skill-php {
+  background-image: url("img-l/icon-php.svg");
 }
 
 .light-theme .level {
@@ -556,3 +576,4 @@
 .light-theme .theme-button:hover::before {
   background-image: url("img-button/moon-hover.svg");
 }													
+
